@@ -164,7 +164,7 @@ Per directory shell profile
 
     tasks = {
         "ttfd:watch" = {
-            exec = ''find -name *.py | entr -s "python -m pytest"'';
+            exec = ''find -name *.py | entr -s "python src/main.py"'';
         };
     };
 }
@@ -191,7 +191,7 @@ devenv tasks run ttfd:watch
 
     tasks = {
         "ttfd:watch" = {
-            exec = ''find -name *.py | entr -s "python -m pytest"'';
+            exec = ''find -name *.py | entr -s "python sr/main.py"'';
         };
     };
 
@@ -222,7 +222,7 @@ devenv test
 
     tasks = {
         "ttfd:watch" = {
-            exec = ''find -name *.py | entr -s "python -m pytest"'';
+            exec = ''find -name *.py | entr -s "python src/main.py"'';
         };
     };
 
