@@ -31,9 +31,6 @@ To work on any of these components I at least need:
 
 ## The API Server
 
-When working on this I need:
-
-* A text editor with LSP client
 * A Python LSP (e.g. `pylsp`)
 * A database (e.g. Postgres or sqlite)
 * And a way of giving the API server the database connection information
@@ -42,9 +39,6 @@ When working on this I need:
 
 ## The client UI
 
-To work on this component I need:
-
-* A text editor with LSP client
 * A Typescript LSP (e.g. `typescript-language-server`)
 * Node.js + NPM
 * Dependencies defined in `package.json`
@@ -53,9 +47,6 @@ To work on this component I need:
 
 ## The CLI
 
-For this I need:
-
-* A text editor with LSP client
 * Rust LSP (e.g. `rust-analyzer`)
 * Rust compiler and package manager
 * Dependencies defined in `Cargo.toml`
