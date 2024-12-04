@@ -23,9 +23,9 @@ A web application with 3 components:
  {{1}}
 To work on any of these components I at least need:
 
- {{2}} Git
+{{2}} Git
 
-{{3}} A text editor with an LSP client
+{{3}} A programming text editor (e.g. Emacs, Zed, Neovim)
 
 {{4}} But also a lot more...
 
@@ -34,30 +34,32 @@ To work on any of these components I at least need:
 When working on this I need:
 
 * A text editor with LSP client
-* A Python LSP
-* PostgreSQL
-* Python and dependencies defined in `pyproject.yml`
-* Formatter, linter
+* A Python LSP (e.g. `pylsp`)
+* A database (e.g. Postgres or sqlite)
+* And a way of giving the API server the database connection information
+* Python and dependencies as defined in `pyproject.yml` or `requirements.txt`
+* Formatter, linter, typechecker (e.g. `ruff`, `black`, `pylint`, `mypy` for Python)
 
 ## The client UI
 
 To work on this component I need:
 
 * A text editor with LSP client
-* A Typescript LSP
+* A Typescript LSP (e.g. `typescript-language-server`)
 * Node.js + NPM
 * Dependencies defined in `package.json`
-* Formatter, linter
+* Formatter, linter, typechecker (e.g. `eslint`, `prettier`, and `Typescript`)
+* I also need to know the development server URL
 
 ## The CLI
 
 For this I need:
 
 * A text editor with LSP client
-* Rust LSP
+* Rust LSP (e.g. `rust-analyzer`)
 * Rust compiler and package manager
 * Dependencies defined in `Cargo.toml`
-* Formatter
+* Formatter, linter (e.g. `clippy` and `rustfmt`)
 
 ## What's the problem?
 
