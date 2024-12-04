@@ -61,9 +61,15 @@ For this I need:
 
 ## What's the problem?
 
-* What if I need to develop from a new machine?
-* What if my development laptop breaks?
-* What if I need to onboard another developer?
+{{0}} My projects use different versions of a tool
+
+{{1}} I haven't worked on this project in 2 years and the dependencies are no longer available
+
+{{2}} I need to work on a project from a new machine
+
+{{3}} What if my development laptop breaks?
+
+{{4}} What if I need to onboard another developer?
 
 ## One of many...
 
