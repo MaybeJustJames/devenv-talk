@@ -265,5 +265,4 @@ Worth considering even for existing projects
 
 ## Community Session
 
-
-> **What ideas do you have for creating a community of Research Software Engineers in Belgium?**
+![RSE Community](media/rse-slide.png)
